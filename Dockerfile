@@ -35,7 +35,7 @@ ENV UMASK=022
 ENV DOWNLOAD_DIR /downloads
 ENV STATE_DIR /downloads/.metube
 ENV TEMP_DIR /downloads
-VOLUME /downloads
+# VOLUME /downloads
 EXPOSE 8081
 
 # Add build-time argument for version
